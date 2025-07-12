@@ -30,8 +30,7 @@ function startQuiz(array $questions): void
 function showQuestions(array $questions): array
 {
     $answers = [];
-
-    echo PHP_EOL;
+  
 
     foreach ($questions as $index => $question) {
         echo ($index + 1) . ". " . $question['question'] . "\n";

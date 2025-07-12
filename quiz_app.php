@@ -45,7 +45,7 @@ function showResult(array $questions, array $answers): void
     $myScore = evaluateQuiz($questions, $answers);
 
     echo "\nYou scored {$myScore} out of " . count($questions) . ".\n";
-
+asasas
     if ($myScore == count($questions)) {
         echo "Excellent job!\n";
     } elseif ($myScore >= 1) {
